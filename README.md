@@ -52,9 +52,5 @@ Projekt został podzielony na moduły logiczne, co ułatwia jego rozbudowę:
    ```bash
    https://github.com/raylib-cs/raylib-cs
 3. Uruchom projekt
-  ```bahs
+  ```bash
   dotnet run
- 
-<sub>Autor: <b>Adam Kwiatkowski</b> • 2024</sub>
-</div>
-   
