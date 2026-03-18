@@ -1,11 +1,8 @@
 # 🐍 Snake Game
 
-<div align="center">
-  <img src="https://img.shields.io/badge/C%23-12.0-blue.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C# Standard" />
+<div align="left">
   <img src="https://img.shields.io/badge/.NET-8.0-purple.svg?style=for-the-badge&logo=dotnet&logoColor=white" alt="Framework" />
   <img src="https://img.shields.io/badge/Raylib--cs-6.0.0-orange.svg?style=for-the-badge" alt="Library" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
-  <img src="https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge" alt="Build Status" />
 </div>
 
 <br />
@@ -45,58 +42,19 @@ Projekt został podzielony na moduły logiczne, co ułatwia jego rozbudowę:
 
 ### Wymagania
 * [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+* [Raylib-cs](https://github.com/ChrisDill/Raylib-cs) (v6.0.0)
 
 ### Kroki do uruchomienia
 1. Sklonuj repozytorium na swój dysk:
    ```bash
    git clone [https://github.com/K0K0S3K/snake.git](https://github.com/K0K0S3K/snake.git)
-    </div>
-
-<br />
-
-<div align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Step-02-blue%3Fstyle%3Dfor-the-badge%26logo%3Ddotnet%26logoColor%3Dwhite" alt="Krok 2" />
-<br />
-
-Przywracanie Zależności Pobierz niezbędne pakiety NuGet (w tym Raylib-cs):
-Bash
-
-dotnet restore
-
-</div>
-
-<br />
-
-<div align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Step-03-brightgreen%3Fstyle%3Dfor-the-badge%26logo%3Ddotnet%26logoColor%3Dwhite" alt="Krok 3" />
-<br />
-
-Kompilacja i Start Uruchom grę bezpośrednio z poziomu konsoli:
-Bash
-
-dotnet run
-
-</div>
-🎮 Sterowanie
-
-<div align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Movement-Arrows-orange%3Fstyle%3Dfor-the-badge" alt="Strzałki" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Action-Enter-red%3Fstyle%3Dfor-the-badge" alt="Enter" />
-<br />
-<br />
-Klawisz	Akcja
-<kbd>▲</kbd> Strzałka w górę	Ruch w górę
-<kbd>▼</kbd> Strzałka w dół	Ruch w dół
-<kbd>◄</kbd> Strzałka w lewo	Ruch w lewo
-<kbd>►</kbd> Strzałka w prawo	Ruch w prawo
-<kbd>↵</kbd> Enter	Start / Restart gry
-
-</div>
-📝 Licencja
-
-Projekt udostępniany na licencji MIT. Więcej informacji w pliku LICENSE.
-
-<div align="center">
+2. Zainstaluj bibliotekę raylib
+   ```bash
+   https://github.com/raylib-cs/raylib-cs
+3. Uruchom projekt
+  ```bahs
+  dotnet run
+ 
 <sub>Autor: <b>Adam Kwiatkowski</b> • 2024</sub>
 </div>
    
